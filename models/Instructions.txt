@@ -1,1 +1,2 @@
 This folder contains tfid vectorizer and the logistic regression model trained on Kaggle.
+vectorizer.7z is compressed as it was greater than 25mb
