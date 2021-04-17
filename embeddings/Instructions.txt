@@ -1,0 +1,1 @@
+This folder contains word embeddings used in this project. According to my experiments 'glove.6B.300d' works the best but smaller embeddings also works.
