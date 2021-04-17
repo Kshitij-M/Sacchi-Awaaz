@@ -1,1 +1,2 @@
-This folder contains word embeddings used in this project. According to my experiments 'glove.6B.300d' works the best but as that it is quite large, I am uploading 'glove.6B.50d' which also works fine.
+This folder contains word embeddings used in this project. According to my experiments 'glove.6B.300d' works the best but as that it is quite large, hence it cannot be uploaded on GitHub. You can download the embeddings from here:
+Link: https://nlp.stanford.edu/projects/glove/
