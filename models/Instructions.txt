@@ -1,0 +1,1 @@
+This folder contains tfid vectorizer and the logistic regression model trained on Kaggle.
