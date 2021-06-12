@@ -1,7 +1,7 @@
 # Sacchi-Awaaz
-## A web app that helps you avoid using Offensive or Abusive Language.
+## A web app that helps you to manage Mental Health Problems
 
-This web app helps users to get rid of the habit of speaking Abusive or Offensive language. It not only prevents users from using these words, but also tries to cure the main reason that forces people to use them. People generally tend to use offesive or harsh words when they are not mentally strong or because it is their bad habit. The app works in 3 steps:
+This web app helps users in managing Mental Health problems and get rid of the habit of speaking Abusive or Offensive language. It not only prevents users from using these words, but also tries to cure the main reason that forces people to use them. People generally tend to use offesive or harsh words when they are not mentally strong or because it is their bad habit. The app works in 3 steps:
 
 ![Alt text](screenshots/1.png?raw=true "Prevent")
 1. **Automatically detects use of offensive language and automatically deletes it:** In this step, I have used pretrained GloVe embeddings available on Stanford University's website. Now to label the vectors, I decided to divide the words into 2 classes - hateful and non-hateful words. I created a corpus of both of these categories. I iterated over the words typed by the user and checked its similaroty with the 2 categories. I then created a thresold value which finally classifies the words into their respective categories by comparing the word vector with the words in the categories. The offensive words are labelled seperately it's offensiveness is labelled. In the resulting message all the oensive words are automatically deleted so that user is not able to use them.
